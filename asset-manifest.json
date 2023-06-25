@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/blog-by-bhuvnesh/static/css/main.df861abd.css",
-    "main.js": "/blog-by-bhuvnesh/static/js/main.165c0de4.js",
-    "static/js/787.f587e8d5.chunk.js": "/blog-by-bhuvnesh/static/js/787.f587e8d5.chunk.js",
-    "static/media/profile.webp": "/blog-by-bhuvnesh/static/media/profile.a317eaa0141f501a8473.webp",
-    "index.html": "/blog-by-bhuvnesh/index.html",
-    "main.df861abd.css.map": "/blog-by-bhuvnesh/static/css/main.df861abd.css.map",
-    "main.165c0de4.js.map": "/blog-by-bhuvnesh/static/js/main.165c0de4.js.map",
-    "787.f587e8d5.chunk.js.map": "/blog-by-bhuvnesh/static/js/787.f587e8d5.chunk.js.map"
+    "main.css": "/blog-for-ingeniumedu/static/css/main.df861abd.css",
+    "main.js": "/blog-for-ingeniumedu/static/js/main.72d7717d.js",
+    "static/js/787.f587e8d5.chunk.js": "/blog-for-ingeniumedu/static/js/787.f587e8d5.chunk.js",
+    "static/media/profile.webp": "/blog-for-ingeniumedu/static/media/profile.a317eaa0141f501a8473.webp",
+    "index.html": "/blog-for-ingeniumedu/index.html",
+    "main.df861abd.css.map": "/blog-for-ingeniumedu/static/css/main.df861abd.css.map",
+    "main.72d7717d.js.map": "/blog-for-ingeniumedu/static/js/main.72d7717d.js.map",
+    "787.f587e8d5.chunk.js.map": "/blog-for-ingeniumedu/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df861abd.css",
-    "static/js/main.165c0de4.js"
+    "static/js/main.72d7717d.js"
   ]
 }
