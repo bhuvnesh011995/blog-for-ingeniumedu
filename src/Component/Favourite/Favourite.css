@@ -1,0 +1,23 @@
+.myfav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.favtitle{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 30px;
+}
+.myfav_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.myfav_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}

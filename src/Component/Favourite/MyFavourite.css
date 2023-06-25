@@ -1,0 +1,10 @@
+.myfav_box{
+    display: flex;
+    width: 60vw;
+    background-color: rgb(184, 145, 220);
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(166, 229, 237);
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .3em;
+    padding-right: 10px;
+}
+.singIn_logo{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding-right: 10%;
+    margin: 10px;
+}
+.right_nav{
+    cursor: pointer;
+     text-decoration: none;
+}
+.theme{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding-right: 10%;
+    margin: 10px;
+}
+.left_nav{
+    display: flex;
+    align-items: center;
+}
+.favourite{
+    cursor: pointer;
+    letter-spacing: normal;
+    text-decoration: none;
+
+}

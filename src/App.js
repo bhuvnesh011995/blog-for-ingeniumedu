@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import './App.css';
+import { BrowserRouter,Route,Routes } from 'react-router-dom';
+import Navbar from './Common/Navbar/Navbar';
+import Main from './Component/Home/Main';
+import Post from './Component/Posts/Post';
+import Favourite from './Component/Favourite/Favourite';
+import Footer from './Component/Footer/Footer';
+
+
+
+
 
 function App() {
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+        <Navbar/>
+    <Routes>
+      <Route path='/' element={<Main />}/>
+      <Route path='/post' element={<Post/>}/>
+      <Route path='/favourite' element={<Favourite/>}/>
+    </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
