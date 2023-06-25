@@ -13,8 +13,8 @@ export default function Favourite(){
 const [post,setPost] = useState();
 
 let locPost = JSON.parse(localStorage.getItem("fav"))
-console.log(locPost)
-let myFav = post?.map(e=>{
+if(locPost&&locPost.length>0){
+    var myFav = post?.map(e=>{
     if(locPost.includes(e.id)){
         return(
             <div className="myfav_row">
@@ -29,9 +29,7 @@ let myFav = post?.map(e=>{
         )
     }
 })
-
-
-console.log(post)
+}
 useEffect(()=>{
     fetch(URL.POSTS)
     .then(res=>res.json())
@@ -46,7 +44,7 @@ useEffect(()=>{
             My Favourite
             </h1>
                 <div className="myfav">
-                    {myFav}
+                    { myFav?.length? myFav : "No Favourite Post"}
             </div>
         </div>
     )

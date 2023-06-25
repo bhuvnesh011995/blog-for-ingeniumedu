@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+    min-height: 60vh;
 }
 .favtitle{
     display: flex;

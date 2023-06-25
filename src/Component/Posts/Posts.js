@@ -3,20 +3,21 @@ import "./Posts.css"
 import heart from "../../Common/heat.png"
 import heartfav from "../../Common/heatFav.png"
 import { useNavigate } from "react-router-dom"
+import image from "../../Common/random.jpg"
 
 let initialread = {
     body:false,
     title:false
 }
 
-export default function Posts({userId,id,image,title,body}){
+export default function Posts({userId,id,title,body}){
 const [readMore , setReadMore] = useState(false);
 const [fav,setFav] = useState(false);
 let navigate = useNavigate();
 
 
 useEffect(()=>{
-    if(JSON.parse(localStorage.getItem("fav")).includes(id)){ 
+    if(JSON.parse(localStorage.getItem("fav"))?.includes(id)){ 
         setFav(true)
     }
 },[])
@@ -36,7 +37,7 @@ function handleFav(e){
 
 function routeToPost(e){
 
-    const state = {id:id,userId:userId,image:image,body:body,title:title}
+    const state = {id:id,userId:userId,body:body,title:title}
     navigate("/blog-for-ingeniumedu/post",{state})
 }
 

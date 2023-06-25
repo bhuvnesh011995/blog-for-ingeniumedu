@@ -8,8 +8,6 @@ export default function MyFavourite({title,userId,body,id}){
     const [author,setAuthor] = useState();
     let navigate = useNavigate();
 
-
-    console.log(author)
     useEffect(()=>{
         fetch(URL.AUTHOR+userId)
         .then(res=>res.json())

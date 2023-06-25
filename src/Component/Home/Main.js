@@ -7,6 +7,7 @@ import Posts from "../Posts/Posts";
 import arrowL from "../../Common/arrowL.png";
 import arrowR from "../../Common/arrowR.png";
 import { themeContext } from "../../Context/Theme-context";
+import background from "../../Common/nature.jpg"
 
 
 
@@ -19,7 +20,6 @@ function reducer(no,action){
 
 export default function Main() {
   const [posts, SetPosts] = useState([]);
-  const [url, seturl] = useState("https://picsum.photos/1600/400");
   const [no,dispatch] = useReducer(reducer,15)
   let {dark,theme,toggle} = useContext(themeContext); 
 
@@ -39,7 +39,6 @@ export default function Main() {
           userId={e.userId}
           title={e.title}
           body={e.body}
-          image="https://picsum.photos/100/75"
         />
       </div>
     );
@@ -56,7 +55,7 @@ export default function Main() {
     style={{backgroundColor:theme.background, color:theme.color}}
 
     >
-      <div className="promo" style={{ backgroundImage: `url(${url})` }}>
+      <div className="promo" style={{ backgroundImage: `url(${background})` }}>
         <div onClick={handleClick}>
           <img className="arrow" src={arrowL} alt="icon" />
         </div>
