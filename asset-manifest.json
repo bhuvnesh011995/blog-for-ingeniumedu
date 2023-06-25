@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/blog-for-ingeniumedu/static/css/main.a1269a8e.css",
-    "main.js": "/blog-for-ingeniumedu/static/js/main.ea98a01a.js",
+    "main.js": "/blog-for-ingeniumedu/static/js/main.8b043c36.js",
     "static/js/787.f587e8d5.chunk.js": "/blog-for-ingeniumedu/static/js/787.f587e8d5.chunk.js",
     "static/media/random.jpg": "/blog-for-ingeniumedu/static/media/random.2efa792394e9bba92ee8.jpg",
     "static/media/nature.jpg": "/blog-for-ingeniumedu/static/media/nature.73a6326a64874423ccde.jpg",
     "static/media/profile.webp": "/blog-for-ingeniumedu/static/media/profile.a317eaa0141f501a8473.webp",
     "index.html": "/blog-for-ingeniumedu/index.html",
     "main.a1269a8e.css.map": "/blog-for-ingeniumedu/static/css/main.a1269a8e.css.map",
-    "main.ea98a01a.js.map": "/blog-for-ingeniumedu/static/js/main.ea98a01a.js.map",
+    "main.8b043c36.js.map": "/blog-for-ingeniumedu/static/js/main.8b043c36.js.map",
     "787.f587e8d5.chunk.js.map": "/blog-for-ingeniumedu/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1269a8e.css",
-    "static/js/main.ea98a01a.js"
+    "static/js/main.8b043c36.js"
   ]
 }
