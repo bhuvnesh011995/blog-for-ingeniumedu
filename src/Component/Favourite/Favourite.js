@@ -34,6 +34,7 @@ useEffect(()=>{
     fetch(URL.POSTS)
     .then(res=>res.json())
     .then(data=>setPost(data))
+    window.scrollTo(0, 0)
 },[])
 
     return(

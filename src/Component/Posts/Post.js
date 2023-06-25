@@ -61,6 +61,7 @@ export default function Post(){
         if(locComment.length){
             setComments(preVal=>([...preVal,...locComment]))
         }
+        window.scrollTo(0, 0)
     },[])
 
 
@@ -78,9 +79,6 @@ export default function Post(){
         }
         setFav(!fav)
     }
-    useEffect(()=>{
-        
-    },[])
 
     return(
         <div 

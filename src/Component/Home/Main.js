@@ -48,6 +48,7 @@ export default function Main() {
       .then((res) => res.json())
       .then((data) => SetPosts(data))
       .catch();
+      window.scrollTo(0, 0)
   }, []);
 
   return (
