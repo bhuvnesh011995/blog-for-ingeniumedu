@@ -37,7 +37,7 @@ function handleFav(e){
 function routeToPost(e){
 
     const state = {id:id,userId:userId,image:image,body:body,title:title}
-    navigate("/post",{state})
+    navigate("/blog-for-ingeniumedu/post",{state})
 }
 
     return(

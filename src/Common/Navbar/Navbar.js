@@ -13,10 +13,10 @@ export default function Navbar(){
 
     return(
         <div className="navbar">
-            <Link to="/">
+            <Link to="blog-for-ingeniumedu/">
                 <section className="right_nav">Blog</section>
             </Link>
-             <Link to="/favourite" >
+             <Link to="blog-for-ingeniumedu/favourite" >
              <div className="favourite">My Favourite</div>
              </Link>
             <div className="left_nav">

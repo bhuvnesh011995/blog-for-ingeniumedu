@@ -19,9 +19,9 @@ function App() {
     <BrowserRouter>
         <Navbar/>
     <Routes>
-      <Route path='/' element={<Main />}/>
-      <Route path='/post' element={<Post/>}/>
-      <Route path='/favourite' element={<Favourite/>}/>
+      <Route path='/blog-for-ingeniumedu/' element={<Main />}/>
+      <Route path='/blog-for-ingeniumedu/post' element={<Post/>}/>
+      <Route path='/blog-for-ingeniumedu/favourite' element={<Favourite/>}/>
     </Routes>
       <Footer />
     </BrowserRouter>

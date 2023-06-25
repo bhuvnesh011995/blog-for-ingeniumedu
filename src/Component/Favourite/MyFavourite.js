@@ -20,7 +20,7 @@ export default function MyFavourite({title,userId,body,id}){
     function routeToPost(e){
 
         const state = {id:id,userId:userId,body:body,title:title}
-        navigate("/post",{state})
+        navigate("/blog-for-ingeniumedu/post",{state})
     }
 
     return(
